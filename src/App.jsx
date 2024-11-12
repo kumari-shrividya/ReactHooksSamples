@@ -3,6 +3,8 @@ import SampleContext from './SampleContext'
 import SampleEffect from './SampleEffect'
 import SampleState from './SampleState'
 import SampleReducer from './SampleReducer'
+import SampleRef from './SampleRef'
+import SampleCallback from './SampleCallback'
 
 function App() {
  
@@ -18,13 +20,21 @@ function App() {
 
    {/* useContext sample */}
 
-    <p>My Sample Context:</p>
+    <h3>My Sample Context:</h3>
     <SampleContext/>
 
     {/* useReducer */}
     <h3>My Sample Reducer</h3>
     <SampleReducer/>
 
+
+    {/* useRef */}
+    <h3>My Sample Ref</h3>
+    <SampleRef/>
+
+    {/* useCallback */}
+    <h3>My Sample Callback</h3>
+    <SampleCallback/>
     </>
   )
 }
